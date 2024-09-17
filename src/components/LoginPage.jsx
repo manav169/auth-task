@@ -7,6 +7,7 @@ const LoginPage = () => {
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
   const navigate = useNavigate();
+  console.log("Hello I am working");
 
   const handleLogin = async () => {
     const payload = { username, password };
